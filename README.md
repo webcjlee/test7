@@ -7,3 +7,4 @@ flowchart TD
     C -- "Yes" --> D{Citizen, PR, or Valid Pass Holder?}
     D -- "No" --> X[Not Eligible: Must be SG Citizen, PR, or Pass Holder]
     D -- "Yes" --> E[Eligible to Apply for Driver's Licence]
+    X --> ZP [End]
